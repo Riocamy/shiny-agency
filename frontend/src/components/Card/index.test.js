@@ -1,3 +1,4 @@
+/* eslint-disable testing-library/no-node-access */
 import Card from './'
 import { render, screen, fireEvent } from '@testing-library/react'
 import { ThemeProvider } from '../../utils/context'
